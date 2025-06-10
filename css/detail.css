@@ -1,0 +1,122 @@
+#hot-products #product-box{
+    background: none;
+    padding: 10px 0;
+}
+#product-gallery{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+#product-attribute-detail{
+    float: right;
+    width: 45%;
+}
+#product-name h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Conv_Roboto-Bold';
+    font-size: 36px;
+}
+#more-images ul{
+    padding: 0;
+}
+#more-images ul li{
+    float: left;
+    list-style: none;
+    border: 1px solid #dfdfdf;
+    width: 31.3%;
+    margin-left: 3%;
+    margin-bottom: 10px;
+}
+#more-images ul li.first-line{
+    margin-left: 0;
+}
+#more-images ul li img{
+    max-width: 100%;
+}
+#main-image{
+    border: 1px solid #dfdfdf;
+}
+#main-image img{
+    max-width: 100%;
+}
+#more-images *{
+    box-sizing: border-box;
+}
+#product-price span{
+    font-size: 60px;
+    background: #FFF;
+    padding: 0 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    font-family: 'Conv_Roboto-Bold';
+    color: #444444;
+}
+hr{
+    height: 1px;
+    border: 0;
+    background: #cfc8bc;
+    border-bottom: 1px solid #FFF;
+}
+#product-sapo{
+    color: #929191;
+    font-family: 'Conv_Roboto-Regular';
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    background: url(../images/add-to-cart.png) no-repeat;
+    width: 204px;
+    height: 46px;
+    line-height: 46px;
+    border: 0;
+    margin-top: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:focus{
+    outline: 0;
+}
+#hot-products #product-content{
+    padding: 0;
+}
+#hot-products #product-heading{
+    background: none;
+    padding: 0;
+}
+.display-box{
+    padding: 10px;
+    display: none;
+}
+.display-box.active{
+    display: block;
+}
+#product-heading ul{
+    padding: 0;
+    margin: 0;
+}
+#product-heading ul li{
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+    background: #FFF;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin-right: 5px;
+    font-family: 'Conv_Roboto-Bold';
+    font-size: 16px;
+    border-bottom: 1px solid #ebebeb;
+}
+#product-heading ul li.active{
+    background: #ee2d23;
+    color: #FFF;
+    font-family: 'Conv_Roboto-Regular';
+    border-bottom: 1px solid #ee2d23;
+}
+#product-heading ul li.clear-both{
+    float: none;
+    height: 0;
+}
+.product-quantity{
+    margin: 15px 0 10px;
+}
